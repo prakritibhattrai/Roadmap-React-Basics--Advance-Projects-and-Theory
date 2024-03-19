@@ -1,0 +1,162 @@
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(74, 74, 75);
+}
+
+.navbar {
+  background-color: rgb(245, 245, 245);
+}
+.search {
+  margin: auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 70%;
+  background: rgb(234, 234, 234);
+  box-shadow: none;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  padding: 3px 10px;
+  margin: 10px 0px;
+}
+.search h6 {
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(17, 17, 99);
+  padding: 0px;
+  line-height: 25px;
+  margin: 15px 0px;
+}
+
+.list-layout {
+  width: 976px;
+  margin: auto auto;
+  margin-top: 10px;
+}
+
+.list-form {
+  width: 600px;
+  margin: 20px auto;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+}
+
+.list-form input,
+textarea {
+  width: 100%;
+  background: rgb(232, 232, 232);
+  box-shadow: none;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  margin: 10px 0;
+}
+.list-form textarea {
+  height: 100px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-lists ul {
+  padding: 0;
+}
+
+.all-lists ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 5px 5px rgb(244, 244, 244);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.addBtn {
+  height: 20px;
+  background-color: rgb(17, 17, 99);
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.submitBtn {
+  height: 30px;
+  background-color: rgb(17, 17, 99);
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.item-list {
+  position: relative; /* Set the position of the list item container to relative */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.item-list h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.item-list p {
+  margin-bottom: 10px;
+}
+
+.item-list button {
+  position: absolute; /* Set the position of the buttons to absolute */
+  top: 5px; /* Position the buttons 5px from the top */
+  right: 5px; /* Position the buttons 5px from the left */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.item-list button.edit {
+  background-color: #d2d2d2;
+  color: black;
+  right: 7%;
+}
+
+.item-list button.delete {
+  background-color: #ded9d9;
+  color: black;
+}
+
+.header-title {
+  font-size: 25px;
+  color: rgb(74, 74, 75);
+}
+
+.filter-sort-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.filter-container,
+.sort-container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  width: 150px;
+  height: 30px;
+}
