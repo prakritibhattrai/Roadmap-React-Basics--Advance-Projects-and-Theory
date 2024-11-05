@@ -97,7 +97,7 @@ textarea {
 }
 
 .item-list {
-  position: relative; /* Set the position of the list item container to relative */
+  position: relative;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -114,9 +114,9 @@ textarea {
 }
 
 .item-list button {
-  position: absolute; /* Set the position of the buttons to absolute */
-  top: 5px; /* Position the buttons 5px from the top */
-  right: 5px; /* Position the buttons 5px from the left */
+  position: absolute;
+  top: 5px;
+  right: 5px;
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
