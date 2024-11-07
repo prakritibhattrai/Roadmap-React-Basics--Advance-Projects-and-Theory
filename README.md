@@ -1,4 +1,4 @@
-# 📚 React Learning Journey: From Basics to Advanced 🚀
+# 📚 React Learning Journey: From Basics to Advanced : Using vite 🚀
 
 This repository serves as a collection of projects designed to teach React from the ground up. Each project introduces core concepts, essential libraries, and advanced techniques, guiding you through the world of React development step-by-step.
 
