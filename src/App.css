@@ -1,0 +1,13 @@
+.blend-image {
+  mix-blend-mode: overlay;
+  opacity: 0.9; /* Adjust opacity to blend the image softly */
+}
+
+.blend-image-container {
+  position: relative;
+}
+
+.bg-gradient-to-r {
+  /* Gradient background overlay for smoother blending */
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), transparent);
+}
